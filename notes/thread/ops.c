@@ -16,7 +16,6 @@ void *product(void *input) {
 void *sum(void *input) {
   int i, s=0; 
   int *array = input;
-  array = (int *) array;
   for (i=array[0]; i<=array[1]; i++)
     s += i;
   array[2] = s;
